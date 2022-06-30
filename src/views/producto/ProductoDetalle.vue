@@ -42,8 +42,6 @@ import {  mapActions, mapGetters } from 'vuex'
       },
     mounted () {
       this.cantidad=this.getCantProd(this.productId)
-
-      console.log(this.$route.params.id)
     },
     data () {
       return {
