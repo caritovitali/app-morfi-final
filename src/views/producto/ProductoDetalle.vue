@@ -1,5 +1,4 @@
 <template lang="html">
-
          <div v-if="producto" class="w-full max-w-xl p-5 relative mx-auto my-auto rounded-xl shadow-lg bg-white">
       <div class="">
         <div class="text-center p-5 flex-auto justify-center">
