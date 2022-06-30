@@ -6,8 +6,7 @@
             :to="{ 
               name: 'producto', 
               params: { 
-                id: producto.id,
-                producto 
+                id: producto.id
               } 
             }" 
            >

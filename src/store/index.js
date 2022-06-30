@@ -14,9 +14,13 @@ const store = new Vuex.Store({
   state: {
     productos: [],
 
+
   },
   getters: {
     productos: state => state.productos,
+    getProductById: state => id => {
+      return state.productos.find(producto => producto.id == id)
+    }  
 
   },
   mutations: {

@@ -61,7 +61,14 @@ const apiServices = {
       return res.data;
 
     } catch (err) { console.log (err) }
-  }
+  },
+  getProductById: async (id) => {
+    try {
+      const res = await axios.get(`${apiUrl}/productos/${id}`);
+      return res.data;
+    
+    } catch (err) { console.log (err) }
+  },
 
  
 }
