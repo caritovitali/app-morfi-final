@@ -30,6 +30,4 @@ https://caritovitali.github.io/AppMorfiDeploy
 ### REPOSITORIO DEPLOY
 https://github.com/caritovitali/AppMorfiDeploy
 
-### ACCESO ADMIN
-username= carito
-clave= carito
+
