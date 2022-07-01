@@ -41,12 +41,12 @@
                                     </td>	
                                       <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                         <p class="text-gray-900 whitespace-no-wrap">
-                                            {{item.total}}
+                                            ${{item.total}}
                                         </p>
                                     </td>		
                                 </tr>
                                 <tr>
-                                    <td colspan="3" class="text-right font-bold">Total: {{sumTotal}}</td>
+                                    <td colspan="3" class="text-right font-bold">Total:${{sumTotal}}</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -77,7 +77,7 @@
         sumTotal(){
             var sum=0
             this.pedido[0].forEach(item => {
-                sum=parseFloat(item.total)+parseFloat(item.total)
+                sum=parseFloat(sum)+parseFloat(item.total)
             });
         return sum;
         },

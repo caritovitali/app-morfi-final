@@ -22,3 +22,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### PRODUCTION URL
+https://caritovitali.github.io/AppMorfiDeploy
+
+### ACCESO ADMIN
+username= carito
+clave= carito

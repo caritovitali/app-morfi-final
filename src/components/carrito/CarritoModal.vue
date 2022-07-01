@@ -61,7 +61,8 @@ import apiServices from '@/services/api.services'
                 this.closeCarrito();
            /*      this.$emit('finalizar-compra', this.cart) */
             }else{
-                this.alert="Debes iniciar sesion para finalizar la compra"
+                  this.alert="Debes iniciar sesion para finalizar la compra"
+                    setTimeout(() => this.alert = '', 5000);
             }
                
         } 

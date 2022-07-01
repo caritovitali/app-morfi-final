@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="">
-
-        <h3>Tus Pedidos:</h3>
-             
+        <h3>Tus Pedidos:</h3>            
         </div>
         <div>
           <TablePedidos v-for="(pedido,i) in pedidos"
@@ -33,7 +31,6 @@ export default {
   },
 
   mounted() {
-    console.log(this.user)
         if (this.user) this.getPedidos();
         else this.$router.push('/')
 

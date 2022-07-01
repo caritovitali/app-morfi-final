@@ -59,7 +59,6 @@ export default {
         },
   }),
   methods: {
-
         async registrarUsuario() {
                 await apiServices.createUser(this.form);
                 this.$router.push('/login');
