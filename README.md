@@ -27,6 +27,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### PRODUCTION URL
 https://caritovitali.github.io/AppMorfiDeploy
 
+### REPOSITORIO DEPLOY
+https://github.com/caritovitali/AppMorfiDeploy
+
 ### ACCESO ADMIN
 username= carito
 clave= carito
